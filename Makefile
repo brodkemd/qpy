@@ -17,4 +17,9 @@ qpy.o:	qpy.cpp
 	g++ -c qpy.cpp
 
 clean:
-	rm *.o qpy
+	rm -r qpy objects *.o
+
+org:
+	mkdir objects
+	cp *.o objects
+	rm *.o

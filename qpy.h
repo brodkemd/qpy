@@ -7,6 +7,6 @@
 std::string linker = " ";
 
 // list the indentifiers that you want removed from the code files
-std::vector<std::string> indentifiers = {"QCircuit"};
+std::vector<std::string> indentifiers = {"QCircuit", "Qbit", "Cbit", "Qbits", "Cbits", "Qgate"};
 
 #endif 

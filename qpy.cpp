@@ -71,7 +71,7 @@ int main(){
 				//lib.print("inds and deletes the indentifier in the file");
 				//lib.print("contents of file");
 				//lib.print(contents_of_file);
-				lib.search_for_and_replace_string_in_vector_with_options(contents_of_file, it, "", 2);
+				lib.search_for_and_replace_string_in_vector_with_options(contents_of_file, it, "", false, false, 2);
 				// writes the lines back to the file now that the added identifiers are removed
 				//lib.print("writes the lines back to the file now that the added identifiers are removed");
 				//lib.print("contents of file");

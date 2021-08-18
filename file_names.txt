@@ -1,1 +1,1 @@
-/home/marek/Documents/Qcode/qpy.qpy
+/home/marek/Documents/Qcode/2.py
